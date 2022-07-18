@@ -1,0 +1,8 @@
+const actions = {
+  SET_TIME_PERIOD: 'SET_TIME_PERIOD',
+  SET_THEME_MODE: 'SET_THEME_MODE',
+  SET_SOUND: 'SET_SOUND',
+  SHOULD_SETTING_BE_OPENED: 'SHOULD_SETTING_BE_OPENED',
+};
+
+export default actions;

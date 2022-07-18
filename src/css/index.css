@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  --body-bg: #f6f8ff;
+  --card-bg: #fefefe;
+  --card-shadow: 0 16px 40px -10px rgb(70 96 187 / 20%);
+  --basic-clr: #000;
+  --colon:#929292;
+  background-color: var(--body-bg);
+  overflow: hidden;
+}
+
+body.dark-theme {
+  --body-bg: #2e2e44;
+  --card-bg: #2d2f41;
+  --card-shadow: 0 5px rgba(14, 21, 37, 0.8);
+  --vertical-dots: #929292;
+  --basic-clr: #fff;
+}
